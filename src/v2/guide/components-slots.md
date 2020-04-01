@@ -329,7 +329,7 @@ function (slotProps) {
 </current-user>
 ```
 
-这样可以使模板更简洁，尤其是在该插槽提供了多个 prop 的时候。它同样开启了 prop 重命名等其它可能，例如将 `user` 重命名为 `person`：
+这样可以使模板更简洁，尤其是在该插槽提供了多个 prop 的时候。它同样开启了 prop 重命名等其它可能，例如将 `person` 重命名为 `user`：
 
 ``` html
 <current-user v-slot="{ user: person }">
